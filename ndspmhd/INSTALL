@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+ NDSPMHD: A Smoothed Particle (Magneto)Hydrodynamics code for (astrophysical)
+ fluid dynamics simulations in 1, 2 and 3 spatial dimensions.
+
+ (c) 2002-2014 Daniel Price
+-------------------------------------------------------------------------------
+
+To compile the code, type "make", specifying the number of dimensions
+and a SYSTEM variable corresponding to one listed in src/Makefile.
+
+e.g. make 1D SYSTEM=gfortran
+
+ - or -
+ 
+export SYSTEM=gfortran
+make 1D
